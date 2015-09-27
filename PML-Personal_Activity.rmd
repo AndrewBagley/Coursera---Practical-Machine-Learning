@@ -117,3 +117,4 @@ corrplot(corrPlot, method="color")
 treeModel <- rpart(classe ~ ., data=trainData, method="class")
 prp(treeModel) # fast plot
 ```
+ 
